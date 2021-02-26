@@ -488,11 +488,11 @@ class phtml
                 $builder .= ' target="'.$target.'"';
             }
 
-            public function download($target)
+            public function download()
             {
                 global $builder;
 
-                $builder .= ' target="'.$target.'"';
+                $builder .= ' download';
             }
 
             public function media($media)
